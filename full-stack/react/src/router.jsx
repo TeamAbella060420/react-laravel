@@ -1,12 +1,7 @@
 import {createBrowserRouter} from 'react-router-dom';
-import React from 'react'
 
-const router = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const router = createBrowserRouter([
+
+]) 
 
 export default router
