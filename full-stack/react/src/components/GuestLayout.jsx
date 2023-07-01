@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet, Navigate } from 'react-router-dom';
+import { Outlet, Navigate, Link } from 'react-router-dom';
 import { useStateContext } from '../context/ContextProvider';
 
 export default function GuestLayout() {
@@ -9,7 +9,9 @@ export default function GuestLayout() {
     }
   return (
     <div>
-      <div>
+      <div id=''>
+        <Link to='/login'>Login</Link>
+        <Link to='/register'>Register</Link>
         <Outlet />
       </div>
     </div>
