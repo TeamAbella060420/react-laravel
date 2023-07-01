@@ -5,11 +5,12 @@ import { useStateContext } from '../context/ContextProvider';
 export default function GuestLayout() {
     const {token} = useStateContext();
     if (token) {
-        return < Navigate to="/" />
+        return < Navigate to="/users" />
     }
   return (
     <div>
       <div>
+        Guest
         <Outlet />
       </div>
     </div>
