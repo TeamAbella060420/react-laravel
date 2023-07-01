@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Login() {
 
@@ -13,6 +14,9 @@ export default function Login() {
           <input type="email" placeholder='Email'/>
           <input type="password" placeholder='Password'/>
           <button className='btn btn-block'>Login</button>
+          <p className='message'>
+            Not Registered? <Link to='/signup'>Sign up</Link>
+          </p>
         </form>
       </div>
     </div>
