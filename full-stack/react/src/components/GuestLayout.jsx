@@ -9,9 +9,7 @@ export default function GuestLayout() {
     }
   return (
     <div>
-      <div id=''>
-        <Link to='/login'>Login</Link>
-        <Link to='/signup'>Signup</Link>
+      <div>
         <Outlet />
       </div>
     </div>
