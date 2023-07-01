@@ -10,8 +10,10 @@ export default function DefaultLayout() {
 
   return (
     <div id='defaultLayout'>
+      <aside>
       <Link to='/dashboard'>Dashbord</Link>
       <Link to='/users'>Users</Link>
+      </aside>
       <Outlet />
     </div>
   )
