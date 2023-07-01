@@ -19,7 +19,7 @@ export default function Signup() {
         <input type="password" placeholder='Confirm Password'/>
         <button className='btn btn-block'>Sign up</button>
         <p className='message'>
-          Already Registered? <Link to='/login'>Login</Link>
+          Already Registered? <Link to='/login'>Sign in</Link>
         </p>
       </form>
     </div>
