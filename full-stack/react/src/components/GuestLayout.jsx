@@ -11,7 +11,7 @@ export default function GuestLayout() {
     <div>
       <div id=''>
         <Link to='/login'>Login</Link>
-        <Link to='/register'>Register</Link>
+        <Link to='/signup'>Signup</Link>
         <Outlet />
       </div>
     </div>
